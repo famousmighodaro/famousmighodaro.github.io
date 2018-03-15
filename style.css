@@ -1,0 +1,44 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+body{
+	height: 100%;
+	margin: 0px;
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("img.jpg");
+  background-size: cover;
+  height: 100%;
+}
+.container{
+	margin: 0 auto;
+	
+
+	
+}
+
+.col{
+	transition: all 1s;
+	min-height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+	align-items: center;
+}
+
+.col:hover{
+	transform: scale(1.1);
+	height: 100%;
+}
+.btn{
+	margin-top:200px; 
+	width: 160px;
+}
+.my-auto {
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+}
